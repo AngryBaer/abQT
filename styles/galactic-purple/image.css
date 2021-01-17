@@ -1,0 +1,13 @@
+QLabel {
+    font-family: "Tahoma";
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    background-color: #78909C;
+    border: 0px solid #78909C;
+    border-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-right: 20px;
+    padding-left: 1px;
+}

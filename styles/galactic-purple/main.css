@@ -1,0 +1,154 @@
+QFrame {
+    background-color: black;
+    border: 0px solid black;
+    border-radius: 0px;
+}
+QDockWidget {
+    border: 5px solid white;
+    border-radius: 2px;
+}
+QLabel {
+    font-family: "Tahoma";
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: black;
+    background-color: #7986CB;
+    border: 0px solid #7986CB;
+    border-radius: 0px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+    padding-right: 10px;
+    padding-left: 1px;
+}
+QLineEdit {
+    font-family: "Tahoma";
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: none;
+    color: plum;
+    padding: 3px;
+}
+
+QComboBox {
+    font-family: "Tahoma";
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: plum;
+    padding: 3px;
+    padding-left: 8px;
+    margin-right: 8px;
+}
+QComboBox QWidget{
+    color: plum;
+    border: 0px solid #78909C;
+    border-bottom: 1px solid #78909C;
+    border-right: 1px solid #78909C;
+    border-radius: 0px;
+    border-bottom-right-radius: 10px;
+    background-color: black;
+    selection-color: black;
+    selection-background-color: plum;
+    selection-border-radius: 2px;
+    margin-left: 7px;
+    margin-right: 18px;
+    margin-bottom: 4px;
+}
+QListWidget {
+    font-family: "Tahoma";
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: uppercase;
+    border-radius: 7px;
+    border: 1px solid #78909C;
+    border-right: 0px;
+    border-bottom: 0px solid #78909C;
+    border-radius: 0px;
+    border-top-left-radius: 10px;
+    background-color: black;
+}
+QListWidget::item {
+    color: plum;
+    background-color: transparent;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 7px;
+    border-bottom: 2px solid transparent;
+    padding-left: 2px;
+}
+QListWidget::item:selected {
+    color: black;
+    background-color: plum;
+    border-bottom: 2px solid black;
+}
+QListWidget:focus {
+    outline: none;
+}
+QAction::data {
+    color: plum;
+    background-color: black;
+    border-bottom-left-radius: 8px;
+    padding: 1px;
+    padding-left: 4px;
+    margin-right: 5px;
+}
+QMenu {
+    font-family: "Tahoma";
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: plum;
+    background-color: black;
+    border-radius: 7px;
+    border: 1px solid #78909C;
+    border-right: 0px;
+    border-top: 0px solid #78909C;
+    border-radius: 0px;
+    border-bottom-left-radius: 10px;
+    padding-left: 1px;
+}
+QMenu::item {
+    color: plum;
+    background-color: black;
+    border-bottom-left-radius: 8px;
+    padding: 1px;
+    padding-left: 4px;
+    padding-right: 15px;
+}
+QMenu::separator {
+    background-color: #78909C;
+    height: 1px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+QMenu::item:selected {
+    color: black;
+    background-color: plum;
+    border: 0px solid black;
+}
+QMenuBar {
+    font-family: "Impact";
+    font-size: 20px;
+    text-transform: uppercase;
+    color: khaki;
+    border: 0px solid black;
+    border-bottom: 2px solid #78909C;
+    border-radius: 0px;
+    background-color: black;
+}
+QMenuBar::item {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+QMenuBar::item:selected {
+    color: black;
+    background-color: plum;
+}
+QSpinBox {
+    font-family: "Tahoma";
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    background-color: plum;
+    border: 1px solid plum;
+}
